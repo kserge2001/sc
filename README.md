@@ -1,1 +1,3 @@
-# sc
+# maven-project
+
+Simple Maven Project
