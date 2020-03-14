@@ -11,6 +11,7 @@
   </parent>
 
   <artifactId>scp</artifactId>
+  <format>zip</format>
   <packaging>zip</packaging>
   <name>scp</name>
   <description>Webapp.</description>
