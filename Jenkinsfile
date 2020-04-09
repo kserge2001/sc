@@ -18,5 +18,12 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('Deployement') {
+            steps {
+                echo 'Deploying....'
+                pwd 
+                sleep 10
+            }
+        }
     }
 }
