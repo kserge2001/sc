@@ -21,7 +21,7 @@ pipeline {
         stage('Deployement') {
             steps {
                 echo 'Deploying....'
-                pwd 
+                ls
                 sleep 10
             }
         }
