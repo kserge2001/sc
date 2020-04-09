@@ -21,7 +21,7 @@ pipeline {
         stage('Deployement') {
             steps {
                 echo 'Deploying....'
-                /bin/ls
+               
                 sleep 10
             }
         }
