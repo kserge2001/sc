@@ -7,7 +7,7 @@ pipeline {
                 sleep 4
             }
         }
-        stage('Maven') {
+        stage('Test') {
             steps {
                 echo 'Testing..'
                 sleep 10
