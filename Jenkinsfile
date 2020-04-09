@@ -17,8 +17,7 @@ pipeline {
             steps {
                 mvn clean 
                 mvn install
-                mvn package
-                }
+                
             }
         }
         stage('Deploy') {
