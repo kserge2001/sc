@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Maven') {
             steps {
-               withMaven(maven : 'M2_HOME')
+                withMaven(maven : 'M2_HOME') {
                     sh 'mvn clean install'
             }
         }
