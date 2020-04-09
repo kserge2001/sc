@@ -17,7 +17,6 @@ pipeline {
             steps {
                withMaven(maven : 'M2_HOME')
                     sh 'mvn clean install'
-                sleep 10
             }
         }
         stage('Deploy') {
