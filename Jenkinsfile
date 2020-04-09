@@ -7,9 +7,16 @@ pipeline {
                 sleep 4
             }
         }
-        stage('Test') {
+        stage('Maven') {
             steps {
                 echo 'Testing..'
+                sleep 10
+            }
+        }
+        stage('Maven') {
+            steps {
+               withMaven(maven : 'M2_HOME')
+                    sh 'mvn clean install'
                 sleep 10
             }
         }
